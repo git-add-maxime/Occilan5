@@ -1,1 +1,23 @@
 @import "./lib/bootstrap/css/bootstrap.css";
+.navbar-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.nav-item {
+    flex-grow: 1;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    max-width: none;
+    margin: 0%;
+}
+
+.navbar{
+    padding-bottom: 0%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
