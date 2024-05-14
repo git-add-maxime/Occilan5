@@ -17,7 +17,9 @@
 
       {{-- </div> --}}
       <div class="btn-group ms-auto">
-        <button type="button" class="btn btn-danger">Login</button>
+        <button type="button" class="btn btn-danger mb-1">
+            <a class="link-body-emphasis link-underline-opacity-0 link-underline-opacity-0-hover" href="{{route('login')}}">Login</a>
+        </button>
         </button>
       </div>
     </div>
