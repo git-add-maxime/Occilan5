@@ -15,7 +15,6 @@
     <body>
         {{--Navbar --}}
         @include('navbar/navbar')
-        <h1>Welcome</h1>
         {{-- Tous nos contenus seront affichés ici--}}
         @yield('content')
 
